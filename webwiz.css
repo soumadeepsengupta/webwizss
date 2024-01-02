@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Kalnia:wght@500&family=Nabla&family=Noto+Serif+Bengali:wght@500&display=swap');
+
+body {
+    background-image: url(bg\ star.webp);
+    color: wheat;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    /* justify-content: center;
+    align-items: center; */
+}
+
+h1 {
+    font-size: 60px;
+    text-align: center;
+    font-family: nabla;
+    text-shadow: -8px 8px 17px rgb(255, 119, 0);
+    letter-spacing: 10px;
+
+}
+
+.quote {
+    display: inline-block;
+    color: black;
+    letter-spacing: 2px;
+    font-weight: bolder;
+    text-shadow: -2px 0px 1px black;
+    font-size: large;
+    font-style: oblique;
+    background-color: rgba(255, 166, 0, 0.726);
+    border-radius: 20px;
+    bottom: -18vh;
+    width: 100%;
+    height: 30px;
+    text-shadow: 13px 7px 10px rgba(208, 157, 157, 0);
+    box-shadow: 5px 5px 69px rgb(255, 255, 255);
+    box-sizing: border-box;
+}
+
+h3 {
+    font-family: Indie Flower;
+    letter-spacing: 2.5px;
+    font-weight: bolder;
+    font-size: x-large;
+    text-shadow: 13px 7px 20px whitesmoke;
+    
+}
+
+li {
+    float: left;
+    margin: 1vmin;
+    padding: 5vmin;
+    list-style: none;
+}
+
+li a {
+    display: inline;
+    text-decoration: none;
+    font-family: kalnia;
+    color: rgb(255, 255, 255);
+    font-size: 35px;
+    font-weight: bold;
+    text-shadow: -1px 2px 1px rgba(255, 0, 0, 0.785);
+}
+
+a:hover {
+    color: yellow;
+    text-shadow: 0px 15px 35px rgb(97, 3, 249);
+}
+
+a:link {
+    color: rgb(255, 255, 255);
+}
+
+.search_theme {
+    float: right;
+}
+
+#search {
+    border-radius: 10px;
+    margin: 10px;
+    padding: 15px;
+    background-color: rgba(98, 0, 255, 0.221);
+    color: rgb(255, 0, 51);
+    font-weight: bolder;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img{
+    height: 350px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 30px;
+    opacity: 0.8;
+}
+
+.text1{
+    color: rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -92px;
+    left: 56px;
+}
+.text2{
+    color: rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -88px;
+    left: 223px;
+}
+.text3{
+    color: rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -94px;
+    left: 418px;
+}
+.text4{
+    color: rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -94px;
+    left: 551px;
+}
+.text5{
+    color: rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -94px;
+    left: 700px;
+}
+.text6{
+    color:rgba(0, 0, 0, 0.043);
+    float: left;
+    position: relative;
+    font-family: kalnia;
+    flex-wrap: wrap;
+    display: flex;
+    top: -94px;
+    left: 881px;
+}
+ .text1:hover,.text2:hover,.text3:hover,.text4:hover,.text5:hover,.text6:hover{
+    color: wheat;
+    text-shadow: 2px 8px 50px yellow;
+ }
+
+ img:hover{
+    transform: scale(1.2);
+    opacity: 1;   
+ }
